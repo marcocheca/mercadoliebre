@@ -1,0 +1,324 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    background-color: #ebebeb;
+}
+header{
+    font-family: 'Roboto', sans-serif;
+    background-color: #EAC926;
+    margin: 0px;
+    padding: 20px;
+}
+
+.banner{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.img-banner{
+    width: 100vw;
+    max-width: 1200px;
+}
+
+.header-top-bar{
+    padding: 5px
+}
+
+.logo{
+    width: 160px;
+}
+
+.copy-header{
+    font-weight: 400;
+    text-align: center;
+    font-size: 18px;
+}
+
+.boton{
+    background-color: #03264C;
+    color: white;
+    display: block;
+    max-width: 40px;
+    border-radius: 5px;
+    padding: 5px 0;
+    text-align: center;
+    font-size: 18px;   
+    margin: auto;
+}
+
+.header-bottom-bar{
+    display: none;
+}
+
+.header-bottom-bar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-bottom-bar a{
+    text-decoration: none;
+    color: #222;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+}
+
+main{
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: #ebebeb;
+}
+
+main div{
+    margin: 30px 0;
+}
+
+.titular{
+    font-size: 24px;
+    text-align: left;
+    color: #666;
+}
+.precios{
+    font-size: 18px;
+    width: 70%;    
+}
+.descuentos{
+    font-size: 16px;
+    color: #39b54a;
+    width: 30%;
+    margin: 0%;
+}
+.descripciones{
+    font-size: 16px;
+    display: none;
+    transition-property: all;
+    transition-duration: 1000ms;
+} 
+
+.cajon-producto:hover .descripciones{
+    display: flex;
+}
+.cajon-producto:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+
+
+
+
+.center{
+    text-align: center;
+}
+
+.buscadorpadre{
+    display: flex;
+    align-items: center;
+}
+
+.buscador{
+    border: 1px  black solid;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.4);
+    border-radius: 3px;
+    width: 35vw;
+    margin-left: 5px;
+}
+
+.buscadorlogo{
+    border: black 1px solid;
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+    text-align: center;
+    width: 30px;
+}
+
+
+main div{
+    text-align: center;
+
+}
+
+.cajon-producto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boxbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main div div{
+    background-color: #fff;
+    margin: 5px;
+    /* border: 1px black solid; */
+    text-align: left;
+    max-width: 240px;
+    border-bottom: #ebebeb 1px solid;
+    padding: 15px;
+
+ 
+}
+main div div div{
+    text-align: left;
+}
+
+
+/* .camion{
+    padding: 5px;
+    border: #39b54a solid 1px;
+    border-radius: 100%;
+    text-align: center;
+    width: 20px;
+    color: #39b54a;
+    box-sizing: content-box;    
+} */
+
+.camion{
+    display: block;
+    color: #39b54a;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    position: relative;
+    left: 100px;
+}
+
+footer{
+    background-color: #fff;
+    width: 90%;
+    text-align: center;
+    font-family: 'Roboto' , sans-serif;
+    margin: auto;
+    padding: 20px;
+    color: #666;
+    margin: 15px 0 0 0;
+
+}
+
+footer div{
+    padding: 10px;
+    margin: auto;
+}
+
+.icono-footer{
+    color: #1259c3;
+    font-size: 2rem;
+    margin: auto;
+
+}
+.precio-descuento{
+    display: flex;
+    flex-wrap: nowrap;
+    border: 0;
+    flex-direction: row;
+    align-items: center;
+}
+
+.formulario-register{
+    display: flex;  
+    flex-direction: column;
+}
+.formulario-register form{
+    display: flex;    
+    flex-direction: column;
+}
+
+
+.formulario-register label{
+    margin: 10px 0px;
+}
+.botones-register{
+    padding: 15px;
+    margin: auto;
+    display: flex;
+}
+.botones-register button{
+    margin: 0px 20px;
+    width: 10vw;
+}
+
+.formulario-login{
+    padding: 10px;
+}
+
+.formulario-login h3{
+    color: #666;
+    padding: 10px;
+    margin: 0% 10px;
+}
+
+.formulario-login form{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 15px;
+}
+.formulario-login label{
+    margin:15px
+}
+
+.formulario-login button{
+    margin: 15px;
+}
+
+@media (min-width: 768px) {
+    .header-top-bar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .copy-header{
+        max-width: 350px;
+        text-align: right;
+    }
+    .boton{
+        display: none;
+    }
+    .header-bottom-bar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-bottom-bar ul{
+        display: flex;
+    }
+
+    .header-bottom-bar li{
+        margin: 0 5px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .header-top-bar , .header-bottom-bar{
+        max-width: 1200px;
+        margin: auto;
+
+    }
+    
+}
+
+
+
+
+
+
