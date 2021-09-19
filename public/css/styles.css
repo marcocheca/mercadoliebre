@@ -135,6 +135,7 @@ main div{
     border-radius: 3px;
     width: 35vw;
     margin-left: 5px;
+    padding: 5px;
 }
 
 .buscadorlogo{
@@ -144,6 +145,7 @@ main div{
     border-radius: 3px;
     text-align: center;
     width: 30px;
+    padding: 5px;
 }
 
 
@@ -213,13 +215,17 @@ footer{
     margin: auto;
     padding: 20px;
     color: #666;
-    margin: 15px 0 0 0;
+    margin: auto;
 
 }
 
 footer div{
     padding: 10px;
     margin: auto;
+}
+
+.icono-footer:hover{
+    color: #39b54a;
 }
 
 .icono-footer{
@@ -236,9 +242,15 @@ footer div{
     align-items: center;
 }
 
+.register{
+}
 .formulario-register{
     display: flex;  
     flex-direction: column;
+    background-color: #fff;
+    width: 40%;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    margin: 30px auto;
 }
 .formulario-register form{
     display: flex;    
@@ -248,6 +260,7 @@ footer div{
 
 .formulario-register label{
     margin: 10px 0px;
+     
 }
 .botones-register{
     padding: 15px;
@@ -259,8 +272,18 @@ footer div{
     width: 10vw;
 }
 
+.botones-register button:hover{
+    background-color: #0022AA;
+    color: #fff;
+}
+
 .formulario-login{
-    padding: 10px;
+    display: flex;  
+    flex-direction: column;
+    background-color: #fff;
+    width: 40%;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    margin: 30px auto;
 }
 
 .formulario-login h3{
@@ -281,6 +304,11 @@ footer div{
 
 .formulario-login button{
     margin: 15px;
+}
+
+.formulario-login button:hover{
+        background-color: #0022AA;
+        color: #fff;
 }
 
 @media (min-width: 768px) {
